@@ -1,0 +1,33 @@
+﻿
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @RenderSection("metatags", required: false)
+    <title>@ViewData["Title"] Tribute to an Alaskan Father</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<style>
+
+    .bodyCustom {
+        font-size: 24px;
+        color: #CFB53B;
+        background-color: #000000;
+        background-image: url('lib\\images\\blackgoldtile.jpg');
+        background-repeat: repeat;
+        text-align: center;
+    }
+
+</style>
+<body class="bodyCustom">
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+

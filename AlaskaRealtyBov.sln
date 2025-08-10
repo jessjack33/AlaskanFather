@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlaskaRealtyBov", "AlaskaRealtyBov\AlaskaRealtyBov.csproj", "{9F61DC22-D76A-4A79-ABEF-14C7BBECC135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F61DC22-D76A-4A79-ABEF-14C7BBECC135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F61DC22-D76A-4A79-ABEF-14C7BBECC135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F61DC22-D76A-4A79-ABEF-14C7BBECC135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F61DC22-D76A-4A79-ABEF-14C7BBECC135}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9A49D37-0BCC-4E5E-9D63-DD4D3BF0D379}
+	EndGlobalSection
+EndGlobal
